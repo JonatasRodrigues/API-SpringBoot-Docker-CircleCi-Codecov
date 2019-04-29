@@ -1,6 +1,5 @@
 br/com/b2w/desafio/entity/Counter.class
 br/com/b2w/desafio/dto/ResponseDTO.class
-br/com/b2w/desafio/config/MensagemBundle.class
 br/com/b2w/desafio/exception/PlanetaInexistenteException.class
 br/com/b2w/desafio/service/CounterService.class
 br/com/b2w/desafio/exception/SWAPIException.class

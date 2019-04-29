@@ -3,7 +3,6 @@ import br.com.b2w.desafio.Application;
 import br.com.b2w.desafio.config.BundleConfig;
 import br.com.b2w.desafio.constantes.AppConstantes;
 import br.com.b2w.desafio.entity.Planeta;
-import br.com.b2w.desafio.repository.CounterRepository;
 import br.com.b2w.desafio.repository.PlanetaRepository;
 import org.codehaus.jackson.map.ObjectMapper;
 
@@ -35,11 +34,7 @@ public class PlanetaTest {
     @Autowired
     private PlanetaRepository repository;
 
-    @Autowired
-    private CounterRepository counterRepository;
-
     private MockMvc mockMvc;
-
 
 
     @Before

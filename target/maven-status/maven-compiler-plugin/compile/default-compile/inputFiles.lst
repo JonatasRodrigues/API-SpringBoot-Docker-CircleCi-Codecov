@@ -2,7 +2,6 @@
 /home/jonatas/Desktop/starWars/src/main/java/br/com/b2w/desafio/constantes/AppConstantes.java
 /home/jonatas/Desktop/starWars/src/main/java/br/com/b2w/desafio/dto/PlanetaDTO.java
 /home/jonatas/Desktop/starWars/src/main/java/br/com/b2w/desafio/exception/PlanetaInexistenteException.java
-/home/jonatas/Desktop/starWars/src/main/java/br/com/b2w/desafio/config/MensagemBundle.java
 /home/jonatas/Desktop/starWars/src/main/java/br/com/b2w/desafio/repository/PlanetaRepository.java
 /home/jonatas/Desktop/starWars/src/main/java/br/com/b2w/desafio/entity/Planeta.java
 /home/jonatas/Desktop/starWars/src/main/java/br/com/b2w/desafio/exception/SWAPIException.java
