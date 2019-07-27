@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/JonatasRodrigues/starWarsAPI.svg?style=svg)](https://circleci.com/gh/JonatasRodrigues/starWarsAPI)
+
 # Descrição
 
 API com dados de planetas da franquia Star Wars. Implementação utilizando docker-compose, springboot, maven e mongodb.
