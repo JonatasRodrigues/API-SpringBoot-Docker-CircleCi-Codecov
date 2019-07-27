@@ -1,4 +1,5 @@
 [![CircleCI](https://circleci.com/gh/JonatasRodrigues/starWarsAPI.svg?style=svg)](https://circleci.com/gh/JonatasRodrigues/starWarsAPI)
+[![codecov](https://codecov.io/gh/JonatasRodrigues/starWarsAPI/branch/master/graph/badge.svg)](https://codecov.io/gh/JonatasRodrigues/starWarsAPI)
 
 # Descrição
 
