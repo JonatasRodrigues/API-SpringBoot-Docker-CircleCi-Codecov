@@ -26,10 +26,7 @@ jobs:
 
     steps:
       - checkout
-       - codecov/upload:
-          file: coverage/*.json
-          flags: frontend
-          
+                 
       # Download and cache dependencies
       - restore_cache:
           keys:
@@ -44,8 +41,17 @@ jobs:
             - ~/.m2
           key: v1-dependencies-{{ checksum "pom.xml" }}
 
-      # run tests!
+      # run
       - run: mvn install
+     
+      # run tests! and gen code coverage
       - run: mvn test
+
+      - store_test_results:
+          path: target/surefire-reports
+
+      - run:
+          name: Send to CodeCov
+          command: bash <(curl -s https://codecov.io/bash)
       
     
