@@ -26,7 +26,10 @@ jobs:
 
     steps:
       - checkout
-      
+       - codecov/upload:
+          file: coverage/*.json
+          flags: frontend
+          
       # Download and cache dependencies
       - restore_cache:
           keys:
@@ -45,6 +48,4 @@ jobs:
       - run: mvn install
       - run: mvn test
       
-     - codecov/upload:
-          file: coverage/*.json
-          flags: frontend
+    
