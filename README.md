@@ -3,7 +3,7 @@
 
 # Descrição
 
-API com dados de planetas da franquia Star Wars. Implementação utilizando docker-compose, springboot, maven e mongodb.
+API com dados de planetas da franquia Star Wars. Implementação utilizando docker-compose, springboot, circleCi, maven, codecov e mongodb.
 
 # Pré-requisitos
 
