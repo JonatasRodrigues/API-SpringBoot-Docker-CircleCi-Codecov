@@ -3,6 +3,10 @@
 # Check https://circleci.com/docs/2.0/language-java/ for more details
 #
 version: 2
+
+orbs:
+  codecov: codecov/codecov@1.0.4
+  
 jobs:
   build:
     docker:
@@ -22,10 +26,7 @@ jobs:
 
     steps:
       - checkout
-      - run : mvn test
-      - store_artifacts:
-          path:  target
-
+      
       # Download and cache dependencies
       - restore_cache:
           keys:
@@ -42,5 +43,8 @@ jobs:
 
       # run tests!
       - run: mvn install
+      - run: mvn test
       
-     
+     - codecov/upload:
+          file: coverage/*.json
+          flags: frontend
