@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/JonatasRodrigues/starWarsAPI.svg?style=svg)](https://circleci.com/gh/JonatasRodrigues/starWarsAPI)
+[![CircleCI](https://circleci.com/gh/JonatasRodrigues/API-SpringBoot-Docker-CircleCi-Codecov.svg?style=svg)](https://circleci.com/gh/JonatasRodrigues/API-SpringBoot-Docker-CircleCi-Codecov)
 [![codecov](https://codecov.io/gh/JonatasRodrigues/starWarsAPI/branch/master/graph/badge.svg)](https://codecov.io/gh/JonatasRodrigues/starWarsAPI)
 
 # Descrição
